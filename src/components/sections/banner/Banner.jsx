@@ -1,11 +1,16 @@
 import React from 'react'
 
 const Banner = () => {
+  const width = "max-w-[1405px]";
+  const className = width
+    ? "max-w-[1405px] ml-[200px] mx-auto"
+    : "max-w-[1405px] ml-25 mx-auto";
+
   return (
     <div className='max-w-[1440px] mx-auto'>
-        <div className=' w-[1405px] ml-50'>
+      <div className={className}>
         <img src="images/bannerimage.png" alt="bannerimage" />
-        </div>
+      </div>
     </div>
   )
 }
