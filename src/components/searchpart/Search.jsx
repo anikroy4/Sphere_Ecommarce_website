@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from '../layers/Container'
+import SearchIcon from '../../icons/SearchIcon'
 
 const Search = () => {
   return (
@@ -9,11 +10,14 @@ const Search = () => {
             <img className=" mt-[17px]" src="/images/spherelogosearchbar.png" alt="" />
         </div>
 
-        <div>
-          <div className='mr-[51px]'>
-            <input type="text" placeholder='Search for a product, category, or brand' className=' w-[591px] h-[60px] rounded-[30px] px-6 text-[16px] font-["Prompt"] font-normal bg-[#fff] border border-[#E0E0E0] focus:outline-none focus:border-[#000]' />
+        <div className=' mx-auto w-[591px]  rounded-[30px]  bg-[#fff]' >
+          <div className='relative px-[23px]'>
+            <SearchIcon className='absolute left-[35px] w-[20px] top-[40%] translate-y-[-
+1/2] z-10' />
+            <input type="text" placeholder='Search for electronic' className='text-[#01081A] w-[95%] text-[21px] font-["Montserra"] font-light   outline-none ml-[40px] mt-[34px] mb-[25px]'/>
+            
           </div>
-
+          <button className='py-[13px] px-[243px] mb-[11px] font-["Montserrat"] text-[#000] font-normal text-[17px] bg-[#ACE238] rounded-[14px] ml-[23px]' > Search</button>
         </div> 
     </Container>
   )

@@ -4,7 +4,7 @@ import Container from '../../layers/Container'
 const Provider = () => {
   return (
     <>
-    <Container className='relative bg-[#F5F5F5] pt-[105px]
+    <Container className='relative  pt-[105px]
      overflow-hidden mb-[106px]'>
         <div className='absolute top-[62px] left-[0px] w-full h-full z-[100]'>
             <img src="/images/additionalbannerimage.png" alt="additionalbannerimage" />

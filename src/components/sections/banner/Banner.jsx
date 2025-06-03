@@ -7,11 +7,13 @@ const Banner = () => {
     : "max-w-[1405px] ml-25 mx-auto";
 
   return (
-    <div className='max-w-[1440px] mx-auto'>
+    <section className='  bg-[#F3F4F6]'>
+      <div className='max-w-[1440px] mx-auto'>
       <div className={className}>
         <img src="images/bannerimage.png" alt="bannerimage" />
       </div>
     </div>
+    </section>
   )
 }
 
